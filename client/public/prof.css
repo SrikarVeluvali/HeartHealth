@@ -1,0 +1,27 @@
+.Prof {
+    text-align: center;
+  }
+  
+  .Prof-logo {
+    height: 40vmin;
+    pointer-events: none;
+  }
+  
+  .Prof-header {
+    background-color: #282c34;
+    padding: 20px;
+    color: white;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  section {
+    margin-bottom: 30px;
+  }
+  
+  h2 {
+    color: #61dafb;
+  }
+  

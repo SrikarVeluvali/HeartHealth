@@ -1,0 +1,14 @@
+age	Feature	Integer	Age		years	no
+sex	Feature	Categorical	Sex			no
+cp	Feature	Categorical				no
+trestbps	Feature	Integer		resting blood pressure (on admission to the hospital)	mm Hg	no
+chol	Feature	Integer		serum cholestoral	mg/dl	no
+fbs	Feature	Categorical		fasting blood sugar > 120 mg/dl		no
+restecg	Feature	Categorical				no
+thalach	Feature	Integer		maximum heart rate achieved		no
+exang	Feature	Categorical		exercise induced angina		no
+oldpeak	Feature	Integer		ST depression induced by exercise relative to rest		no
+slope	Feature	Categorical				no
+ca	Feature	Integer		number of major vessels (0-3) colored by flourosopy		yes
+thal	Feature	Categorical				yes
+num	Target	Integer		diagnosis of heart disease		no
