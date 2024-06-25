@@ -18,7 +18,7 @@ const HeartbeatImage = styled.img`
   object-fit: cover;
 `;
 const { GoogleGenerativeAI } = require("@google/generative-ai");
-const genAI = new GoogleGenerativeAI("AIzaSyDIceResPAczirGngM8x1rqBOw-eJ8qdUo");
+const genAI = new GoogleGenerativeAI("YOUR_GEMINI_API_KEY");
 const model = genAI.getGenerativeModel({ model: 'gemini-pro' });
 
 const HomePage = () => {
