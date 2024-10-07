@@ -34,11 +34,3 @@ An AI-driven chatbot powered by Google's Gemini to answer user queries related t
 - **AI/ML**: Custom machine learning models for heart disease prediction
 - **AI Integration**: Google's Gemini AI for personalized recommendations and chatbot functionality
 
-## Contributing
-This project was made as a part of `PROJECT SCHOOL` in `Keshav Memorial Institute of Technology` from October 2023 to February 2024.
-This project was made possible to team members:
-- Srikar Veluvali
-- Aka Meher Archana
-- Anpur Phani Charan
-- Sesha Sai Pratiek Yeggina
-- Siddharth Katrapalli
