@@ -34,3 +34,54 @@ An AI-driven chatbot powered by Google's Gemini to answer user queries related t
 - **AI/ML**: Custom machine learning models for heart disease prediction
 - **AI Integration**: Google's Gemini AI for personalized recommendations and chatbot functionality
 
+## Setup Instructions
+
+To set up the project locally, follow these steps:
+
+1. **Clone the Repository**  
+   Clone the project using:
+   ```bash
+   git clone https://github.com/SrikarVeluvali/HeartHealth.git
+   ```
+
+2. **Navigate to the Data Folder**  
+   Go to the `data` folder in the local repository:
+   ```bash
+   cd HeartHealth/data
+   ```
+
+3. **Run the Jupyter Notebooks**  
+   Execute the two notebook files in the `data` folder. This will generate two joblib files.
+
+4. **Move Joblib Files**  
+   Paste the generated joblib files into the `app` folder.
+
+5. **Create Environment Variables**  
+   Create `.env` files in both the `client` and `server` folders. 
+
+6. **Add Environment Variables**  
+   Add the following variables in both `.env` files:
+   ```plaintext
+   GEMINI_API=your_gemini_api_key_here
+   MONGO_DB_URL=your_mongodb_url_here
+   ```
+
+7. **Update Flask App**  
+   In the Flask app, replace the `MONGO_DB_URL` and `GEMINI_API` with the values from your `.env` files.
+
+8. **Run the Application**  
+   Open three terminal windows:
+   - In the first terminal, run the Flask server:
+     ```bash
+     flask run
+     ```
+   - In the second terminal, run the Express server:
+     ```bash
+     npm run server
+     ```
+   - In the third terminal, run the React application:
+     ```bash
+     npm start
+     ```
+
+Now you're good to go! You can access the Heart Health App and start exploring its features.
