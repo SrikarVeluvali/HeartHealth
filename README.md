@@ -44,7 +44,7 @@ An AI-driven chatbot powered by Google's Gemini to answer user queries related t
 - **Frontend**: React.js
 - **Backend**: Node.js, Express.js
 - **Database**: MongoDB
-- **AI/ML**: Custom machine learning models for heart disease prediction
+- **AI/ML**: Custom machine learning models for heart disease prediction. (Logistic Regression and RandomForestClassifer)
 - **AI Integration**: Google's Gemini AI for personalized recommendations and chatbot functionality
 
 ## Setup Instructions
