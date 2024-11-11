@@ -97,4 +97,4 @@ To set up the project locally, follow these steps:
      npm start
      ```
 
-Now you're good to go! You can access the Heart Health App and start exploring its features.
+Now you're good to go! You can now access the Heart Health App.
